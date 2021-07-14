@@ -1,0 +1,480 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  body {
+  	background: #e8e4e2;
+    font-family: tahoma,sans-serif;
+    font-size: 9pt;
+    text-align: center;
+  }
+  h1, h2 {
+  	color: #767678;
+    font-family: 'Yomogi', cursive;
+    margin: 0 0 15px 0;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 24pt;
+  }
+  h2 {
+  	font-size: 20pt;
+  }
+  b {
+  	color: #333;
+  }
+  #container {
+  	background: #fff;
+    border-radius: 5px;
+  	margin: 50px auto;
+    padding: 25px;
+    width: 650px;
+  }
+  #info {
+  	background: #f7f7f7;
+  	display: inline-block;
+    font-size: 9pt;
+    height: 110px;
+    margin-top: 10px;
+    overflow: auto;
+    padding: 10px;
+    text-align: justify;
+    width: 450px;
+  }
+  .icon {
+  	border-radius: 99%;
+  	float: left;
+    height: auto;
+    margin: 0 15px 0 0;
+  	width: 150px;
+  }
+  #pet, #pet2 {
+    background: #fff;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 20px;
+    width: 70px;
+    text-align: center;
+  }
+  #pet img {
+    width: 100%
+  }
+  #pet2 img {
+    opacity: 0.3;
+    width: 100%;
+  }
+  #pet b, #pet2 b {
+    color: #fff;
+    font-weight: normal;
+  }
+  .pp, .pp2 {
+    display: block;
+    margin: 15px auto 0 auto;
+    width: 50% !important;
+  }
+  .pp2 {
+    opacity: 0.3;
+  }
+  .list {
+  	text-align: justify;
+  }
+  .list img {
+  	padding: 2px;
+  	width: 50px;
+  }
+  .collapsible {
+    background: #e8e4e2;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-family: 'Yomogi', cursive;
+    font-size: 15pt;
+    margin: 10px auto;
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+  }
+  .active, .collapsible:hover {
+    background-color: #9d9d9d;
+    color: #fff;
+  }
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #fff;
+  }
+  a, a:visited {
+    border-radius: 5px;
+    color: #9d9d9d;
+    font-family: 'Yomogi', cursive;
+    font-size: 14pt;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a:hover {
+    background: #e8e4e2;
+    color: #fff;
+  }
+</style>
+
+<div id="container">
+  <h1>who dis?</h1>
+  <img class="icon" src="https://github.com/g-i-g-i/npc/blob/main/icon.png?raw=true">
+  <div id="info">
+    gaby, she/her, usa.<br>
+    at any given point in time i am thinking about one thing... keira knightley starring in a lesbian romcom.
+  </div>
+  <br>
+</div>
+
+<div id="container">
+  <h1>account: gabriela</h1>
+    <p>
+    <a href="https://neopetsclassic.com/userlookup/?user=gabriela">userlookup</a> <a href="https://neopetsclassic.com/market/browseshop/?owner=gabriela">shop</a> <a href="https://neopetsclassic.com/gallery/view/?username=gabriela">gallery</a>
+  </p>
+    <h2>PETS</h2>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Ixi/ixi_faerie_baby.gif">
+    Planet
+    <img class="pp" src="https://neopetsclassic.com/images/items/faerie_pet3.gif">
+    Dairy
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Yurble/yurble_faerie_baby.gif">
+    Cosmic
+    <img class="pp" src="https://neopetsclassic.com/images/items/pet_bluna.gif">
+    Heavenly
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Aisha/aisha_faerie_baby.gif">
+    Space
+    <img class="pp" src="https://neopetsclassic.com/images/items/3174.gif">
+    Sidereal
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Blumaroo/blumaroo_faerie_baby.gif">
+    Cosmos
+    <img class="pp" src="https://neopetsclassic.com/images/items/3514.gif">
+    Heavens
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Ruki/ruki_faerie_baby.gif">
+    Stardust
+    <img class="pp" src="https://neopetsclassic.com/images/items/petpet_mazzew.gif">
+    Moonbeam
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Wocky/wocky_faerie_baby.gif">
+    Stars
+    <img class="pp" src="https://neopetsclassic.com/images/items/faerie_pet4.gif">
+    Skies
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Gnorbu/gnorbu_faerie_happy.gif">
+    Moons
+    <img class="pp2" src="https://neopetsclassic.com/images/items/8561.gif">
+    Satelittes
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Grundo/grundo_baby_baby.gif">
+    Nebulae
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Ixi/ixi_baby_baby.gif">
+    Intergalactic
+    <img class="pp2" src="https://neopetsclassic.com/images/items/kadoatie_faerie.gif">
+    Planetary
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Aisha/80by80/aisha_green_happy.gif">
+    Galaxies
+    <img class="pp" src="https://neopetsclassic.com/images/items/177.gif">
+    Universes
+  </div>
+  <p>7/10 painted!</p>
+
+  <button class="collapsible">Space's Gourmet Tracker.</button>
+  <div class="content">
+    <p class="list">
+      <img src="https://neopetsclassic.com/images/items/14386.gif">
+      <img src="https://neopetsclassic.com/images/items/19063.gif">
+      <img src="https://neopetsclassic.com/images/items/14387.gif">
+      <img src="https://neopetsclassic.com/images/items/16850.gif">
+      <img src="https://neopetsclassic.com/images/items/25394.gif">
+      <img src="https://neopetsclassic.com/images/items/puntec-fruit.gif">
+      <img src="https://neopetsclassic.com/images/items/33998.gif">
+      <img src="https://neopetsclassic.com/images/items/35569.gif">
+      <img src="https://neopetsclassic.com/images/items/19532.gif">
+      <img src="https://neopetsclassic.com/images/items/8461.gif">
+      <img src="https://neopetsclassic.com/images/items/food_rainbowbrucicle.gif">
+      <img src="https://neopetsclassic.com/images/items/lut_chococone.gif">
+      <img src="https://neopetsclassic.com/images/items/food_cybunny_sculpture.gif">
+      <img src="https://neopetsclassic.com/images/items/snowfood_crystalone.gif">
+      <img src="https://neopetsclassic.com/images/items/scamander_cookies.gif">
+      <img src="https://neopetsclassic.com/images/items/food_mincepie2.gif">
+    </p>
+    <p>
+      <b>Space</b> has scored <b>16</b> Gourmet Club points!
+    </p>
+  </div>
+  
+  <button class="collapsible">Pastel Gallery Wishlist.</button>
+  <div class="content">
+    <p class="list">
+      <!-- 
+				<img src="" title="">
+			-->
+      <img src="https://neopetsclassic.com/images/items/9191.gif" title="Scroll of Dark Nova">
+      <img src="https://neopetsclassic.com/images/items/1219.gif" title="Frost Mote">
+      <img src="https://neopetsclassic.com/images/items/2663.gif" title="Faerieland Style Window">
+      <img src="https://neopetsclassic.com/images/items/9030.gif" title="Pink Job Coupon"> 
+      <img src="https://neopetsclassic.com/images/items/9029.gif" title="Purple Job Coupon">
+      <img src="https://neopetsclassic.com/images/items/5554.gif" title="Faerie Paint Brush">
+      <img src="https://neopetsclassic.com/images/items/17743.gif" title="Plushie Kiko Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/17746.gif" title="Plushie Usul Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/1264.gif" title="Plushie Korbat Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/pot_cloud_peophin.gif" title="Cloud Peophin Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/pot_eyrie_cloud.gif" title="Cloud Eyrie Morphing Potion"> 
+      <img src="https://neopetsclassic.com/images/items/pot_poogle_cloud.gif" title="Cloud Poogle Morphing Potion"> 
+      <img src="https://neopetsclassic.com/images/items/pot_acara_cloud.gif" title="Cloud Acara Morphing Potion"> 
+      <img src="https://neopetsclassic.com/images/items/pot_bruce_cloud.gif" title="Cloud Bruce Morphing Potion"> 
+      <img src="https://neopetsclassic.com/images/items/pot_shoyru_cloud.gif" title="Cloud Shoyru Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/blue-cybunny-morphing-potion.gif" title="Blue Cybunny Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/22878.gif" title="Baby Kougra Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/21912.gif" title="Baby Kacheek Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/pot_poogle_faerie.gif" title="Faerie Poogle Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/pot_ixi_faerie.gif" title="Faerie Ixi Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/pot_shoyru_faerie.gif" title="Faerie Shoyru Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/pot_lupe_faerie.gif" title="Faerie Lupe Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/toy_faerielupe.gif" title="Faerie Lupe Plushie">
+      <img src="https://neopetsclassic.com/images/items/toy_kiko_faerie.gif" title="Faerie Kiko Plushie">
+      <img src="https://neopetsclassic.com/images/items/toy_ixi_plushfaerie.gif" title="Faerie Ixi Plushie">
+      <img src="https://neopetsclassic.com/images/items/plu_bruce_faerie.gif" title="Faerie Bruce Plushie">
+    </p>
+  </div>
+</div>
+
+<div id="container">
+  <h1>account: lesbian</h1>
+    <p>
+    <a href="https://neopetsclassic.com/userlookup/?user=lesbian">userlookup</a> <a href="https://neopetsclassic.com/gallery/view/?username=lesbian">gallery</a>
+  </p>
+    <h2>PETS</h2>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Xweetok/xweetok_faerie_baby.gif">
+    Keira
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Draik/draik_faerie_baby.gif">
+    Rosamund
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Shoyru/shoyru_faerie_baby.gif">
+    Gillian
+    <img class="pp2" src="https://neopetsclassic.com/images/items/doglefox_faerie.gif">
+    Anderson
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Peophin/peophin_faerie_baby.gif">
+    Lera
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Kougra/kougra_faerie_baby.gif">
+    Twyla
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Poogle/poogle_faerie_baby.gif">
+    Elise
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Krawk/krawk_faerie_baby.gif">
+    Heiress
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <p>4/7 painted!</p>
+  
+  <button class="collapsible">Pink Gallery Wishlist.</button>
+  <div class="content">
+    <p class="list">
+      <!-- 
+				<img src="" title="">
+			-->
+      <img src="https://neopetsclassic.com/images/items/2589.gif" title="Scroll of Benevolence">
+      <img src="https://neopetsclassic.com/images/items/faerie_petpetbrush.gif" title="Faerie Petpet Paint Brush">
+    </p>
+  </div>
+</div>
+  
+  
+<div id="container">
+  <h1>account: disco</h1>
+    <p>
+    <a href="https://neopetsclassic.com/userlookup/?user=disco">userlookup</a>
+  </p>
+    <h2>PETS</h2>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Kau/kau_baby_baby.gif">
+    Bread
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Kau/kau_plushie_baby.gif">
+    Dough
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Kau/kau_royalgirl_baby.gif">
+    Clementine
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Kau/kau_faerie_baby.gif">
+    Strawberries
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Kau/kau_royalboy_baby.gif">
+    Raspberry
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <p>4/5 painted!</p>
+</div>
+
+
+<div id="container">
+  <h1>account: alien</h1>
+    <p>
+    <a href="https://neopetsclassic.com/userlookup/?user=alien">userlookup</a>
+  </p>
+    <h2>PETS</h2>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Blumaroo/blumaroo_plushie_baby.gif">
+    Sugar
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Cybunny/cybunny_plushie_baby.gif">
+    Cupcakes
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Aisha/aisha_plushie_baby.gif">
+    Flower
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Ixi/ixi_plushie_baby.gif">
+    Field
+    <img class="pp" src="https://neopetsclassic.com/images/items/21345.gif">
+    Dreams
+  </div>
+  <p>1/4 painted!</p>
+</div>
+
+
+<div id="container">
+  <h1>account: jhudora</h1>
+    <p>
+    <a href="https://neopetsclassic.com/userlookup/?user=jhudora">userlookup</a> <a href="https://neopetsclassic.com/gallery/view/?username=jhudora">gallery</a>
+  </p>
+    <h2>PETS</h2>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Bori/bori_darigan_baby.gif">
+    Scam
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet">
+    <img src="https://neopetsclassic.com/images/pets/Ixi/ixi_darigan_baby.gif">
+    Jhudora
+    <img class="pp" src="https://neopetsclassic.com/images/items/pet_scado.gif">
+    Illusen
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Usul/usul_baby_baby.gif">
+    Fyora
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <div id="pet2">
+    <img src="https://neopetsclassic.com/images/pets/Bori/bori_baby_baby.gif">
+    Gaby
+    <img class="pp" src="https://images.neopets.com/items/foo_invisible_cookie.gif">
+    <b>.</b>
+  </div>
+  <p>2/4 painted!</p>
+  
+  <button class="collapsible">Jhudora Gallery Wishlist.</button>
+  <div class="content">
+    <p class="list">
+      <!-- 
+				<img src="" title="">
+			-->
+				<img src="https://neopetsclassic.com/images/items/26288.gif" title="Jhudora Stained Glass Window">
+    </p>
+  </div>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
